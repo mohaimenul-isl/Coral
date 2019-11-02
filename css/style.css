@@ -372,7 +372,7 @@ section.portfolio {
 }
 
 .portfolio-overlay{
-   background-color: black;
+   background-color: #000000;
    height: 100%;
    width: 100%;
    position: absolute;
@@ -382,7 +382,8 @@ section.portfolio {
    display: flex;
    justify-content: center;
    align-items: center;
-   text-decoration: none;  
+   text-decoration: none;
+   transition: all .3s ease-in-out;  
 }
 
 .portfolio-overlay i {
@@ -393,10 +394,11 @@ section.portfolio {
    padding-top: 20px;
    border-radius: 100%;
    font-size: 24px;
+   opacity: 1;
 }
 
 .portfolio-block:hover .portfolio-overlay {
-   opacity: 0.65;
+   opacity: 0.6;
 }
 
 
