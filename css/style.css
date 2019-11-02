@@ -559,3 +559,21 @@ footer.footer-section.padding-top {
    font-size: 16px;
    line-height: 32px;
 }
+
+.footer-faw li i {
+   font-size: 16px;
+   font-weight: 900;
+}
+
+.font-foot li a:hover {
+   color: white;
+}
+
+.font-foot {
+   font-size: 16px;
+   line-height: 38px;
+}
+
+.font-foot ul li i {
+   padding-right: 10px;
+}
