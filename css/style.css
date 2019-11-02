@@ -538,6 +538,8 @@ section.testimonial {
    color: #fff;
    margin: 30px 0px;
    opacity: .8;
+   font-size: 17px;
+   font-weight: 300;
 }
 
 /* Contact */
