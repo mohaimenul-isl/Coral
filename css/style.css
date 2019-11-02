@@ -71,14 +71,16 @@ a:hover {
 }
 
 .navbar-nav .nav-item {
-   padding: 8px 4px;
+   padding: 6px 3px 2px 3px;
 }
 
-a.navbar-brand {
+h2.navbar-brand {
    font-size: 26px;
    margin-top: 0px;
-   color: #fff;
+   color: rgb(255, 255, 255);
    font-weight: 500;
+   line-height: 35.1px;
+   cursor: pointer;
 }
 
 .nav>li>a:focus,
@@ -108,13 +110,20 @@ a.navbar-brand {
 }
 
 .navbar-nav>li>a {
-   font-weight: 500;
+   font-weight: 400;
+   line-height: 28px;
+   font-size: 16px;
+   color: #fff !important;
 }
 
 .nav>li>a:focus, .nav>li>a:hover {
    background-color: transparent;
-   color: #007bff;
+   color: rgba(255,255,255,.75);
    transition: all .3s ease-in-out;
+}
+
+.nav-item a.active {
+   color: #007bff !important;
 }
 
 
