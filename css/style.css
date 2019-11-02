@@ -99,7 +99,7 @@ a.navbar-brand {
 .nav>li>a:focus, .nav>li>a:hover {
    background-color: transparent;
    color: #007bff;
-   transition: all .3s ease 0s;
+   transition: all .3s ease-in-out;
 }
 
 
