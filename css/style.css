@@ -200,6 +200,10 @@ section.features {
    margin-bottom: 40px;
 }
 
+.feature-icon-block i {
+   font-weight: 900;
+}
+
 /* About */
 
 section.about {
