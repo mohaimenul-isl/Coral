@@ -99,7 +99,10 @@ a.navbar-brand {
 .nav>li>a:focus, .nav>li>a:hover {
    background-color: transparent;
    color: #007bff;
+   transition: all .3s ease 0s;
 }
+
+
 
 /* Hero */
 
@@ -399,6 +402,7 @@ section.portfolio {
    border-radius: 100%;
    font-size: 24px;
    opacity: 1;
+   font-weight: 900;
 }
 
 .portfolio-block:hover .portfolio-overlay {
