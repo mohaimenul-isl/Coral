@@ -161,7 +161,7 @@ a.navbar-brand {
 
 .jhontxt {
    font-size: 16px;
-   line-height: 28px;
+   padding-top: 12px;
 }
 
 p.lead.text-white.text-center {
@@ -169,7 +169,6 @@ p.lead.text-white.text-center {
    padding-bottom: 28px;
    line-height: 29.75px;
    font-weight: 300;
-   letter-spacing: .5px;
    font-size: 17px;
 }
 
@@ -177,13 +176,13 @@ h1.text-center {
    color: #fff;
    font-weight: 700;
    font-size: 56px;
-   padding-bottom: 26px;
+   padding-bottom: 17px;
 }
 
 .banner-txt {
    padding-bottom: -32px;
    margin-top: 22px;
-   letter-spacing: 0.5px;
+   width: 654px;
 }
 
 /* Features */
