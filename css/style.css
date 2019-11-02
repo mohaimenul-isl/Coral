@@ -581,3 +581,11 @@ footer.footer-section.padding-top {
 .font-foot ul li i {
    padding-right: 10px;
 }
+
+.footer-copy p {
+   color: rgba(255,255,255,.5);
+}
+
+.footer-widget a:hover {
+   color: #fff;
+}
