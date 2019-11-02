@@ -385,21 +385,27 @@ section.portfolio {
    text-decoration: none;  
 }
 
-.portfolio-overlay i { 
+.portfolio-overlay i {
    width: 60px;
    height: 60px;
    background: #fff;
    text-align: center;
-   padding-top: 22px;
-   border-radius: 100%;  
-} 
+   padding-top: 20px;
+   border-radius: 100%;
+   font-size: 24px;
+}
 
 .portfolio-block:hover .portfolio-overlay {
-   opacity: 0.5;
+   opacity: 0.65;
 }
+
 
 .service-row {
    margin-top: -15px;
+}
+
+.portfolio-overlay a {
+   margin-top: -70px;
 }
 
 /* Pricing */
