@@ -398,11 +398,18 @@ section.portfolio {
    height: 60px;
    background: #fff;
    text-align: center;
-   padding-top: 20px;
    border-radius: 100%;
-   font-size: 24px;
+   padding-top: 21px;
    opacity: 1;
+   font-size: 20px;
    font-weight: 900;
+}
+
+.portfolio-overlay i.fa.fa-link {
+   /* transform: scaleY(1.2); */
+   /* transform: skewY(0deg); */
+   transform: rotate(95deg);
+   /* width: 42px; */
 }
 
 .portfolio-block:hover .portfolio-overlay {
