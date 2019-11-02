@@ -41,6 +41,7 @@ h6 {
 }
 
 /* Navbar */
+
 .navbar-brand {
    font-size: 26px;
    margin-top: 8px;
@@ -101,6 +102,7 @@ a.navbar-brand {
 }
 
 /* Hero */
+
 .main-header {
    background-image: url(../img/hero-bg.jpg);
    background-size: cover;
@@ -160,8 +162,6 @@ h1.text-center {
    padding-bottom: 26px;
 }
 
-
-
 .banner-txt {
    padding-bottom: -32px;
    margin-top: 22px;
@@ -201,6 +201,7 @@ section.features {
 }
 
 /* About */
+
 section.about {
    background-color: #f8f9fa;
    padding: 120px 0px;
@@ -279,11 +280,6 @@ h2.display-5 {
    align-items: center;
 }
 
-.row.about-content-1 {
-   
-
-}
-
 .about-content-2-main p {
    margin: 20px 0px 30px;
 }
@@ -311,7 +307,6 @@ h2.lg-title {
 .service-icon {
    font-size: 39px;
    margin-right: 37px;
-
 }
 
 .service-icon .fa:before {
@@ -387,8 +382,7 @@ section.portfolio {
    display: flex;
    justify-content: center;
    align-items: center;
-   text-decoration: none;
-   
+   text-decoration: none;  
 }
 
 .portfolio-overlay i { 
@@ -397,9 +391,7 @@ section.portfolio {
    background: #fff;
    text-align: center;
    padding-top: 22px;
-   border-radius: 100%;
-
-   
+   border-radius: 100%;  
 } 
 
 .portfolio-block:hover .portfolio-overlay {
