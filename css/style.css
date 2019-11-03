@@ -534,7 +534,7 @@ section.testimonial {
    display: flex;
    justify-content: center;
    align-items: center;
-   padding: 147px 0px 147px 0px;
+   padding: 100px 0px 147px 0px;
 }
 
 .client-text h3 {
@@ -598,7 +598,7 @@ footer.footer-section.padding-top {
 }
 
 .footer-copy {
-   padding: 40px 0px 9px 0px;
+   padding: 40px 0px 48px 0px;
    border-top: 1px solid #444;
 }
 
@@ -635,6 +635,8 @@ footer.footer-section.padding-top {
 
 .footer-copy p {
    color: rgba(255,255,255,.5);
+   font-size: 17px;
+   font-weight: 300;
 }
 
 .footer-widget a:hover {
