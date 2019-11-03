@@ -50,6 +50,12 @@ a:hover {
    text-decoration: underline;
 }
 
+@media (min-width: 1200px){
+.container {
+    max-width: 1140px;
+}
+}
+
 .btn-primary:hover {
    color: #fff;
    background-color: #0069d9;
@@ -512,6 +518,8 @@ h3.price.my-3 {
    border: 1px solid #ddd;
 }
 
+
+
 /* Client */
 
 .client-img img {
@@ -625,7 +633,7 @@ footer.footer-section.padding-top {
 
 .font-foot {
    font-size: 16px;
-   line-height: 38px;
+   line-height: 36px;
 }
 
 .font-foot ul li i {
